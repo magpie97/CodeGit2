@@ -101,7 +101,11 @@ git log
 
 ### // 가져오는 명령어
 
-git pull origin main      or      master
+git pull origin main     
+
+##### or     
+
+master
 
 
 
