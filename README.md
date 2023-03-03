@@ -23,23 +23,21 @@ homebrew 를 설치 후 깃을 설치한다
 
 ---
 
-
-
-# 깃 폴더 위치 초기화
+### // 폴더 위치 초기화
 git init  
 
-### 파일 전부를 관리
+### // 파일 전부를 관리
 
 git add .     
 
 
-### 파일을 선택하여 관리
+### // 파일을 선택하여 관리
 
 git add C++.cpp     (파일명).(파일 확장자)
 
 
 
-### 파일 상태 확인
+### // 파일 상태 확인
 
 git status
 
@@ -50,13 +48,13 @@ git config --list
 
 
 
-### 커밋 
+### // 커밋 
 
 git commit -m "something comment"	
 
 
 
-브랜치 세팅  
+### // 브랜치 세팅  
 
 git branch -M main
 
@@ -91,17 +89,17 @@ git push origin +main
 
 # PULL & FETCH
 
-### //깃에 있는 모든 파일을 불러오는 명령어
+### // 깃에 있는 모든 파일을 불러오는 명령어
 
 git fetch origin   
 
 
-### 제대로 가져왔는지 확인하는 명령어
+### // 제대로 가져왔는지 확인하는 명령어
 
 git log 
 
 
-### 가져오는 명령어
+### // 가져오는 명령어
 
 git pull origin main      or      master
 
@@ -112,7 +110,7 @@ git pull origin main      or      master
 
 # CLONE
 
-### 원격 저장소를 가져오는 명령어 
+### // 원격 저장소를 가져오는 명령어 
 
 git clone "본인 리포지토리 링크"
 
